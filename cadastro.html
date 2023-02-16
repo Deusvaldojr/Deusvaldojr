@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' href='/css/app.css' media='screen'>
+    <script src='/js/app.js' defer></script>
+    <style type="text/css"></style>
+</head>
+
+<body>
+    <h1>cadastro</h1>
+    <h2>Login</h2>
+    <!-- FORMULARIOS -->
+    <form>
+        <fieldset class="grupo">
+            <div>
+                <label>Email</label>
+                <input type="email" name="email" id="email"
+                    required><br><!-- "NAME" serve para recuperar dados, required serve para obrigar preenchimento -->
+            </div>
+            <div>
+                <label>Senha</label>
+                <input type="password" name="senha" id="senha" required><br><!-- "password" a senha não aparecera! -->
+            </div>
+            <input type="submit" value="Logar">
+        </fieldset>
+    </form>
+    <h2>Cadastro</h2>
+    <fieldset class="grupo">
+        <legend>Dados pessoais</legend><br>
+        <form>
+            Nome:<br>
+            <input type="text" name="nome"><br>
+            CPF:<br>
+            <input type="text" name="cpf"><br>
+            Email:<br>
+            <input type="text" name="Login"><br>
+            Sexo:<br>
+            <input type="radio" name="Sexo" value="H">Homem<br>
+            <input type="radio" name="Sexo" value="M">Mulher<br><br>
+            CNH:<br>
+            <input type="radio" name="cat" value="A">Cat.A<br>
+            <input type="radio" name="cat" value="B">Cat.B<br>
+            <input type="radio" name="cat" value="D">Cat.D<br>
+        </form>
+    </fieldset>
+    <a href="CFCSTUDENT.html">Voltar a pagina Inicial</a>
+</body>
